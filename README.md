@@ -77,12 +77,29 @@ and event-triggered ultrasound stimulation.
 I also performed 7T resting-state fMRI acquisition and analysis to
 evaluate brain-network changes associated with neuromodulation.
 
-## Selected Publication
+## Publications & Conference Contributions
 
-P.-C. Chu, W.-H. Ruan, et al.  
-"Focused ultrasound suppresses pentylenetetrazol-induced epileptiform
-activity in rats and alters connectivity measured by functional MRI."  
-Scientific Reports, 2025.
+### Peer-Reviewed Publication
+
+- P.-C. Chu, W.-H. Ruan, C.-S. Huang, Y.-J. Juan, J.-H. Chen, H.-Y. Yu, R. S. Fisher, and H.-L. Liu,  
+  **"Focused ultrasound suppresses pentylenetetrazol-induced epileptiform activity in rats and alters connectivity measured by functional MRI."**  
+  *Scientific Reports*, 2025.  
+  DOI: 10.1038/s41598-025-15305-0
+
+### Selected Conference Contributions
+
+- **W.-H. Ruan**, P.-C. Chu, Y.-C. Wang, J.-H. Chen, and H.-L. Liu,  
+  **"Evaluating the efficacy of scalp-EEG feedback focused ultrasound stimulation for epilepsy treatment."**  
+  IEEE International Ultrasonics Symposium, 2025 — Oral Presentation.
+
+- P.-C. Chu*, **W.-H. Ruan***, H.-L. Liu, and J.-H. Chen,  
+  **"Exploring epileptic connectivity: A comparative study of kainic acid and pentylenetetrazol using rs-fMRI and focused ultrasound."**  
+  ISMRM Annual Meeting, 2025 — Oral Presentation.  
+  *Co-first author.*
+
+- **W.-H. Ruan**, P.-C. Chu, Y.-J. Juan, J.-H. Chen, and H.-L. Liu,  
+  **"Modulation of acute seizures in pentylenetetrazol models: Effective suppression by high- and low-dose focused ultrasound."**  
+  International Symposium on Therapeutic Ultrasound, 2024 — Poster Presentation.
 
 ## Research Training
 
