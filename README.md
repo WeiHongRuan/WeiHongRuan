@@ -4,9 +4,11 @@ Biomedical researcher working at the intersection of
 **functional neuroimaging, EEG, focused ultrasound neuromodulation,
 and real-time closed-loop neuroscience**.
 
-My research focuses on combining neural signal analysis,
-neuroimaging, and adaptive stimulation to investigate and modulate
-brain activity.
+My research focuses on combining neural signal analysis, neuroimaging, and adaptive stimulation to investigate and modulate brain activity. I am particularly interested in integrating EEG-based brain-state detection with functional MRI and focused ultrasound neuromodulation to study dynamic changes in neural activity and brain networks.
+
+My work involves real-time EEG processing, wavelet-based signal analysis, individualized event detection, and event-triggered stimulation within closed-loop experimental frameworks. In parallel, I use resting-state fMRI, ROI-based analysis, and functional connectivity methods to investigate how neuromodulation affects large-scale brain networks.
+
+More broadly, I am interested in developing multimodal and state-dependent neurotechnology approaches that combine electrophysiology, neuroimaging, and non-invasive stimulation for more precise and adaptive modulation of brain function.
 
 ## Research Interests
 
