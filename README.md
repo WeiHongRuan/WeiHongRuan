@@ -54,15 +54,45 @@ More broadly, I am interested in developing multimodal and state-dependent neuro
 
 ### EPI0 DICOM-to-NIfTI Pipeline
 
-A modular MATLAB pipeline for preparing rodent EPI data before
-downstream fMRI preprocessing.
+A modular MATLAB pipeline for preparing rodent EPI data before downstream fMRI preprocessing.
+
+The workflow performs dataset-specific DICOM cleanup, removes predefined initial fMRI time points, converts the remaining EPI data to NIfTI format, adjusts spatial metadata, prepares the output as `EPI0.nii`, and organizes the data for subsequent preprocessing.
 
 **Workflow**
 
-DICOM cleanup → NIfTI conversion → EPI0 preparation →
-downstream rodent fMRI preprocessing
+DICOM cleanup → Initial time-point removal → NIfTI conversion → EPI0 preparation → Downstream rodent fMRI preprocessing
+
+**Tools:** MATLAB R2025b, DICOM/NIfTI processing, rodent fMRI
 
 [View repository](https://github.com/WeiHongRuan/EPI0-DICOM-to-NIfTI-Pipeline)
+
+---
+
+### Ultrasound Signal Generator Control
+
+A Python-based instrument-control program for configuring and operating a **GW Instek AFG-3022 arbitrary function generator** for burst-mode ultrasound experiments.
+
+The program communicates with the signal generator through **PyVISA** and allows the VISA resource address and major ultrasound waveform parameters to be modified directly from a centralized user-settings section at the beginning of the script.
+
+Adjustable parameters include:
+
+- VISA instrument address
+- carrier frequency
+- output amplitude
+- burst duration
+- pulse repetition frequency (PRF)
+- total output duration
+- output-channel control
+
+The program automatically calculates the pulse repetition period and number of cycles per burst, validates the configured waveform parameters, controls the signal-generator output, and attempts to safely disable the output before closing the VISA connection.
+
+**Workflow**
+
+Keysight Connection Expert → VISA address identification → Python / PyVISA → GW Instek AFG-3022 → Burst-mode waveform configuration → Ultrasound stimulation output
+
+**Tools:** Python, PyVISA, Keysight Connection Expert, GW Instek AFG-3022
+
+[View repository](https://github.com/WeiHongRuan/Ultrasound-Signal-Generator-Control)
 
 ## Research Experience
 
